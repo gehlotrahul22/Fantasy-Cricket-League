@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EvaluateScore</class>
+ <widget class="QWidget" name="EvaluateScore">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1161</width>
+    <height>921</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Evaluate Score</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../Users/rahul/Desktop/images.qrc">
+    <normaloff>:/img/windowicon.png</normaloff>:/img/windowicon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/img/564421.jpg);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="0" colspan="3">
+    <widget class="QPushButton" name="calculateScoreButton">
+     <property name="styleSheet">
+      <string notr="true">font: 87 72pt &quot;Segoe UI Black&quot;;
+background-color: rgb(0, 0, 0,100);
+color: rgb(255, 255, 255);border-image: url;</string>
+     </property>
+     <property name="text">
+      <string>Calculate Score</string>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="finalScore">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>500</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+       <pointsize>97</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/img/92-924018_moon-atmosphere-desktop-wallpaper-png-moon-removebg-preview.png);</string>
+     </property>
+     <property name="text">
+      <string>00</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QComboBox" name="matchSelectComboBox">
+     <property name="styleSheet">
+      <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);border-image: url;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QListWidget" name="playersList">
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+       <pointsize>21</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0,75);
+color: rgb(255, 255, 255);border-image: url;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QComboBox" name="teamSelectComboBox">
+     <property name="styleSheet">
+      <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;
+border-image: url;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>42</width>
+       <height>37</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="Line" name="line">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-image: url;
+</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QListWidget" name="playerScoreList">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0,75);
+color: rgb(255, 255, 255);border-image: url;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="PlayerLabel">
+     <property name="styleSheet">
+      <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;
+border-image: url;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Players</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="ScoreLabel">
+     <property name="styleSheet">
+      <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;
+border-image: url;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Score</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../Users/rahul/Desktop/gvg.qrc"/>
+  <include location="../../Users/rahul/Desktop/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

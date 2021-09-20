@@ -1,0 +1,60 @@
+___________________________________________________________________________________________________
+
+This is Fantasy Cricket League Project Under Internshala Programming With Python Training
+
+---------------------------------------------------------------------------------------------------
+
+How To Open The Project:-
+
+--> Run The File "fantasy_cricket_league.py"
+--> That's It. 
+--> Make Ur Own Team OR Open A Existing Team And Evaluate Score In Different Matches
+---------------------------------------------------------------------------------------------------
+
+Other Files:-
+
+-->evaluate_score.py
+
+	This Is The evaluation window that will help in evaluating team score
+
+-->functions.py
+
+	This file contain all the operations requring calculations or database access operations implemented using functions
+-->data
+
+	Database of all data used in project
+	->stats
+	->teams
+	->match1
+	->match2
+	->match3
+
+----------------------------------------------------------------------------------------------------
+Various Restrictions In Applications As Per Provided Problem Statment:-
+
+In a Team:-
+1.> Maximum 4 Batsman Could Be Added (Bec Only 5 Batsman in Database Of Problem Statment)
+2.> Maximum 3 Bowlers Could Be Added (Bec Only 4 Bowlers in Database Of Problem Statment)
+3.> Maximum 1 Wicket-Keeper Could Be Added (Bec Only 2 Wicket-Keepers in Database Of Problem Statment)
+4.> Maximum 3 All-Rounders Could Be Added (Bec Only 4 All-Rounders in Database Of Problem Statment)
+5.> Maximum 11 Players Could Be Added 
+
+=> Team Name Should Be Only Alpha-Numeric
+=> U Have Maximum 1000 Points To Cover all 11 Players Of Team
+=>U Can Evaluate Score For Only 3 Matches ( Scores In 2 Matches are randomly choosen )
+
+______________________________________________________________________________________________________
+
+
+I have made this project with the knowledge gained from the course itself and exploring more on QtDesigner gave me idea to import images and make a resource file that will contain all the images then converting resource file to images_rc.py (py file) using 
+
+command:- $C:\Python36> pyrcc5 images.qrc -o images_rc.py
+
+here images.qrc is a resource file created in QtDesigner.
+
+_____________________________________________________________________________________________________
+
+This Project is made by
+Mahima Kamat
+Internshala Trainings
+_____________________________________________________________________________________________________
